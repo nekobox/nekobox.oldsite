@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Nicole Doan - Portfolio</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+ <nav class="white" role="navigation">
+   <div class="nav-wrapper container">
+     <a id="logo-container" href="index.html" class="brand-logo">Nicole Doan</a>
+     <ul class="right hide-on-med-and-down">
+       <li><a href="about.html">About Me</a></li>
+     </ul>
+
+     <ul id="nav-mobile" class="sidenav">ql
+       <li><a href="about.html">About Me</a></li>
+     </ul>
+     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+   </div>
+ </nav>
+
+ <!-- Gradient Bar -->
+ <div id='hs-loadingbar-background'></div>
+<div id='hs-loadingbar'><span id='hs-loadingbar-cover'></span></div>
+<style>
+  body{
+    margin-top: 4px;
+  }
+  #hs-loadingbar-background{
+    position: fixed;
+    z-index: 999998;
+    top: 0px;
+    left: 0px;
+    height: 4px;
+    width: 100%;
+    background-color: #fafafa;
+  }
+  #hs-loadingbar{
+    position: fixed;
+    z-index: 999999;
+    top: 0px;
+    left: 0px;
+    height: 4px;
+    background-color: #fafafa;
+    overflow: hidden;
+    -webkit-border-radius: 0 1px 1px 0;
+    border-radius: 0 1px 1px 0;
+  }
+  #hs-loadingbar-cover{
+    position: absolute;
+    z-index: 9999999;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background: #982bce;
+    background: -moz-linear-gradient(left, #982bce 20%, #e527a9 80%);
+    background: -webkit-linear-gradient(left, #982bce 20%, #e527a9 80%);
+    background: linear-gradient(to right, #982bce 20%, #e527a9 80%);
+    -webkit-transition: all .1s ease-in-out !important;
+    -moz-transition: all .1s ease-in-out !important;
+    -o-transition: all .1s ease-in-out !important;
+    transition: all .1s ease-in-out !important;
+  }
+</style>
+
+
+<footer class="page-footer white">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="black-text">Connect</h5>
+          <p class="black-text text-lighten-4">Here be dragons. (Social media icons and shiz.)</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){function o(){var o=$(window).scrollTop(),n=$("body").height(),i=$(window).height();console.log(o);var d=o/(n-i)*101;$("#hs-loadingbar").css("width",d+"%")}$(window).load(function(){o()}),$(window).on("resize",function(){o()}),$(window).scroll(function(n){o()})});
+  </script>
+
+  </body>
+</html>
