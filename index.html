@@ -9,7 +9,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/animations.css">
 </head>
+
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
@@ -23,6 +27,10 @@
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
+
+    <ul class="right hide-on-med-and-down"></ul>
+    <li><a class="black-text" href="mailto:doan.nicole@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      </ul>
   </nav>
 
 
@@ -40,7 +48,7 @@
         <br><br>
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="emotive sky"></div>
+    <div class="parallax"><img src="/images/background1.jpg" alt="emotive sky"></div>
   </div>
 
   <div class="container">
@@ -49,8 +57,34 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Portfolio</h4>
-          <p class="left-align light">Lorem ipsum dolor amet pickled cloud bread four loko, hell of synth iPhone vexillologist retro est officia ea chillwave whatever sunt deep v. Offal tempor cold-pressed etsy aesthetic, cred ethical mlkshk fixie labore cardigan four loko. Aliqua ad cronut ugh. Semiotics voluptate elit distillery ut, helvetica paleo normcore raclette pabst coloring book magna dolore labore tumblr. Freegan kinfolk in do in iceland.</p>
+          <h4>Case Studies</h4>
+          <!--'Lette-->
+          <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <a href="lette-case-study.html"><img src="images/lette card.png"></a>
+                </div>
+                  <div class="card-content">
+                    <h6>'Lette Macarons</h6>
+                    <h7>Navigation Redesign</h7>
+                    <br>
+                  </div>
+              </div>
+          </div>
+
+            <!--OPSKINS-->
+            <div class="col s12 m6 l4">
+              <div class="card">
+                   <div class="card-image waves-effect waves-block waves-light">
+                      <a href="opskins-case-study.html"><img src="images/opskins card.jpg"></a>
+                  </div>
+                  <div class="card-content">
+                      <h6>OPSKINS</h6>
+                      <h7>Educational Augmented Reality (AR)</h7>
+                  </div>
+              </div>
+            </div>
+
         </div>
       </div>
     </div>
@@ -64,7 +98,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="emotive sky"></div>
+    <div class="parallax"><img src="/images/background1.jpg" alt="emotive sky"></div>
   </div>
 
   <div class="container">
@@ -103,7 +137,7 @@
     </div>
   </div>
 
-
+<!--Collaborate -->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -113,24 +147,36 @@
         <div class="row center">
           <a href="message.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">MESSAGE ME</a>
         </div>
-        <br><br>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="clean and focused black"></div>
+    <div class="parallax"><img src="/images/background2.jpg" alt="clean and focused black"></div>
   </div>
 
+<!-- Scroll Up -->
+
+</body>
+
+<!-- Footer -->
   <footer class="page-footer white">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="black-text">Connect</h5>
-          <p class="black-text text-lighten-4">Here be dragons. (Social media icons and shiz.)</p>
+          <h5 class="black-text">Nicole Doan</h5>
+          <h6 class="black-text">EMAIL</h6>
+          <a class="black-text" href="mailto:doan.nicole@gmail.com"></h7>doan.nicole@gmail.com</h7>
+
+          <br><br>
+
+          <div class="col s12">
+            <a class="black-text" href="https://www.linkedin.com/in/nicoledoan" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a class="black-text" href="https://github.com/nekobox" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </div>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
@@ -140,6 +186,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/wow.min.js"></script>
+  
 
-  </body>
 </html>
