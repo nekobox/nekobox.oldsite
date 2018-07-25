@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Nicole Doan - Portfolio</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">Nicole Doan</a>
+    <!--  <ul class="right hide-on-med-and-down">
+        <li><a class="black-text" href="mailto:doan.nicole@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      </ul> -->
+      
+      <ul class="right hide-on-med-and-down">
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">ql
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+
+      <!--Mobile Hamburger-->
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<!-- Gradient Bar -->
+<div id='hs-loadingbar-background'></div>
+<div id='hs-loadingbar'><span id='hs-loadingbar-cover'></span></div>
+<style>
+  body{
+    margin-top: 4px;
+  }
+  #hs-loadingbar-background{
+    position: fixed;
+    z-index: 999998;
+    top: 0px;
+    left: 0px;
+    height: 4px;
+    width: 100%;
+    background-color: #fafafa;
+  }
+  #hs-loadingbar{
+    position: fixed;
+    z-index: 999999;
+    top: 0px;
+    left: 0px;
+    height: 4px;
+    background-color: #fafafa;
+    overflow: hidden;
+    -webkit-border-radius: 0 1px 1px 0;
+    border-radius: 0 1px 1px 0;
+  }
+  #hs-loadingbar-cover{
+    position: absolute;
+    z-index: 9999999;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background: #000000;
+    background: -moz-linear-gradient(left, #ffffff 20%, #000000 80%);
+    background: -webkit-linear-gradient(left, #ffffff 20%, #000000 80%);
+    background: linear-gradient(to right, #ffffff 20%, #000000 80%);
+    -webkit-transition: all .1s ease-in-out !important;
+    -moz-transition: all .1s ease-in-out !important;
+    -o-transition: all .1s ease-in-out !important;
+    transition: all .1s ease-in-out !important;
+  }
+</style>
+
+<div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+  </div>
+  <div class="parallax"><img src="/images/lette card.png" alt="lette navigation redesign"></div>
+</div>
+
+  <!-- Case Study Body-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>The Brief</h4>
+          <h5>‘Lette Macarons have been a local success at the various locations throughout California and Texas that it has opened, but their e-commerce is suffering due to a poorly-designed website that suffers from an unintuitive navigation and unclear categorization.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>The Challenge</h4>
+          <h5>With the growing shift towards online shopping, ‘Lette must reconsider how they market their online presence and the management of their e-commerce navigation.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>The Solution</h4>
+          <h5>Redesign this isht.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--   Icon Section   -->
+<div class="row">
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center black-text"><i class="material-icons">group</i></h2>
+      <h5 class="center">Research</h5>
+
+      <p class="light">UX Design is built around the user, so it is important to understand who those users are before we can begin the framework of solving their issues.</p>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center black-text"><i class="material-icons">flash_on</i></h2>
+      <h5 class="center">Design</h5>
+
+      <p class="light">After discovering who our user is and what their needs are, we develop a design strategy.</p>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h2 class="center black-text"><i class="material-icons">settings</i></h2>
+      <h5 class="center">Prototype</h5>
+
+      <p class="light">The prototype is a rough draft of the product that a user can interact with. We use information from the user's interactions to further refine our design.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!--Collaborate -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Have an idea or a project? Let's collaborate!</h5>
+        </div>
+        <div class="row center">
+          <a href="message.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">MESSAGE ME</a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="/images/background2.jpg" alt="clean and focused black"></div>
+  </div>
+
+</body>
+
+<!-- Footer -->
+<footer class="page-footer white">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="black-text">Nicole Doan</h5>
+        <h6 class="black-text">EMAIL</h6>
+        <a class="black-text" href="mailto:doan.nicole@gmail.com"></h7>doan.nicole@gmail.com</h7>
+
+        <br><br>
+
+        <div class="col s12">
+          <a class="black-text" href="https://www.linkedin.com/in/nicoledoan" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a class="black-text" href="https://github.com/nekobox" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    Made with <a class="teal-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+    </div>
+  </div>
+</footer>
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/wow.min.js"></script>
+
+
+</html>
