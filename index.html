@@ -73,11 +73,36 @@
             <!--OPSKINS-->
             <div class="col s12 m6 l4">
               <div class="card">
-                   <div class="card-image waves-effect waves-block waves-light">
-                      <a href="opskins-case-study.html"><img src="images/opskins/opskins card.jpg"></a>
+                   <div class="card-image waves-block waves-light">
+                      <SCRIPT>
+                          function passWord() {
+                          var testV = 1;
+                          var pass1 = prompt('Enter the Password',' ');
+                          while (testV < 3) {
+                          if (!pass1) 
+                          history.go(-1);
+                          if (pass1.toLowerCase() == "letmein") {
+                          window.open('opskins-case-study.html');
+                          break;
+                          } 
+                          testV+=1;
+                          var pass1 = 
+                          prompt('Password Incorrect, Please Try Again.','Password');
+                          }
+                          if (pass1.toLowerCase()!="password" & testV ==3) 
+                          history.go(-1);
+                          return " ";
+                          } 
+                          </SCRIPT>
+                          <CENTER>
+                          <FORM>
+                          <img src="images/opskins/opskins card.jpg">
+                          </FORM>
+                          </CENTER>
+                  
                   </div>
                   <div class="card-content">
-                      <h6>OPSKINS</h6>
+                      <h6><input type="button" value="OPSKINS" onClick="passWord()">&nbsp;&nbsp;<i class="fas fa-lock"></i></h6>
                       <h7>Educational Augmented Reality (AR)</h7>
                   </div>
               </div>
